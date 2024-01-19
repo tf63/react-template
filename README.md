@@ -10,3 +10,15 @@
     # 開発サーバーの立ち上げ
     yarn dev
 ```
+
+`vite.config.ts`をいじる
+
+```
+    export default defineConfig({
+    plugins: [react()],
+        server: {
+            host: true,
+        },
+    });
+
+```

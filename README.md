@@ -2,9 +2,9 @@
 
 ```
     # パッケージのインストール
-    pnpm i
+    pnpm install
     # 開発サーバーの立ち上げ
-    pnpm dev
+    pnpm run dev
 ```
 
 `vite.config.ts`をいじる

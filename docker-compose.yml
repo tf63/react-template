@@ -7,9 +7,7 @@ services:
       dockerfile: docker/Dockerfile
     tty: true
     volumes:
-      - ./frontend:/app
+      - .:/app
     ports:
       - 5173:5173
     # command: sh -c "pnpm install && pnpm run dev"
-    # env_file:
-    #   - frontend/.env.local

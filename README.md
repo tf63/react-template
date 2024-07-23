@@ -11,7 +11,6 @@
     npm run dev
 ```
 
-
 ```
     /app $ npm create vite@latest
     Need to install the following packages:
@@ -30,7 +29,6 @@
     npm run dev
 ```
 
-
 `vite.config.ts`をいじる
 
 ```
@@ -44,13 +42,16 @@
 ```
 
 ### tailwindcssの導入
+
 https://tailwindcss.com/docs/guides/vite
+
 ```
     npm install -D tailwindcss
     npx tailwindcss init
 ```
 
 `tailwind.config.js`をいじる
+
 ```
     /** @type {import('tailwindcss').Config} */
     export default {
@@ -64,3 +65,9 @@ https://tailwindcss.com/docs/guides/vite
     plugins: [],
     }
 ```
+
+### ESLintの設定
+
+参考
+
+-   https://zenn.dev/knowledgework/articles/0994f518015c04?redirected=1

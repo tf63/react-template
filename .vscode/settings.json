@@ -8,5 +8,6 @@
         "source.addMissingImports": "explicit"
     },
     "prettier.configPath": ".prettierrc",
+    "prettier.prettierPath": "./node_modules/prettier/",
     "typescript.preferences.importModuleSpecifier": "non-relative"
 }

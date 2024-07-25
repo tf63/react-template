@@ -1,3 +1,3 @@
-const App = () => <div className="text-red-700">Sample</div>
+const App = () => <div className="p-5">Sample</div>
 
 export default App
